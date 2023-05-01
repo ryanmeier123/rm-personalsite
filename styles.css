@@ -1,0 +1,68 @@
+*{
+    
+    /* color palettes to use on site
+        medium dark blue #394867
+        dark blue #212A3E
+        dark gray #9BA4B5
+        green #A4D0A4
+        dark green #617A55
+    */
+    
+}
+body{
+    background-color: #F1F6F9;
+    margin: 0px;
+}
+header{
+    display: flex;
+    height: 80px;
+    padding: 0px;
+    
+}
+
+.left-links{
+    flex: 2 2 0;
+    background-color: #a4d0a4;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 20%;
+    
+}
+.left-links a{
+    color: black;
+    flex: 2 2 0;
+    margin-left: 20%;
+    font-size: 40px;
+    
+}
+
+.right-links{
+    margin: 0px;
+    padding: 0px;
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #a4d0a4;
+    
+}
+
+.right-links li{
+    margin: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+header a{
+    text-decoration: none;
+    color: black;   
+}
+@media screen and (max-width: 670px) {
+    .right-links{
+        flex-direction: column;
+    }
+    header{
+        height: 110px;
+    }
+}
